@@ -47,8 +47,8 @@ async function getIngredientData(query){
     try {
 		const {data} = await axios.post(url,{"query": query},
             { headers: {
-                'x-app-id': '3b9b1a3e',
-                'x-app-key': 'aff3ef846160d7102a314cec6b28d81e',
+                'x-app-id': '5dedf8e7',
+                'x-app-key': 'f417ed938ff52b9a30b0628a7163d164',
                 "Content-Type": "application/json"
             }});
 		return data;
